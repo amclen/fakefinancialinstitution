@@ -1,13 +1,15 @@
 Fake Financial Institution!
 
-This repository contains implements a basic financial institution API using Express.js and PostgreSQL. The API includes methods to:
+This repository contains implements a basic financial institution API using Express.js, Sequelize, PostgreSQL. The API includes methods to:
 - Create user
 - Create account
 - Transfer money between accounts
 - List accounts
 - List transfers
 
-This repository also contains a basic web app implementation to interact with this API. See video demo below!
+Please view https://github.com/amclen/fakefinancialinstitution/blob/main/server/server.js for API endpoints.
+
+This repository also contains a basic web app implementation to interact with this API. This project leverages react-hook-form and tanstack/react-query. See video demo below!
 
 
 
