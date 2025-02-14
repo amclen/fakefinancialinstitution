@@ -5,8 +5,6 @@ const TransfersTable = ({ transfers }) => {
     const formatAccountId = useFormatAccountId();
     const formatMoney = useFormatMoney();
 
-    console.log("transfers", transfers)
-
     return (
     <table className="table transfers-table">
         <thead>

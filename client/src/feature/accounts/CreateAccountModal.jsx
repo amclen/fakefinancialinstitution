@@ -16,7 +16,6 @@ const CreateAccountModal = ({ isOpen, onClose }) => {
   });
 
   const onSubmit = async (data) => {
-    console.log("data", data)
     await postAccount({
       displayName: data.name,
       amount: data.balance,

@@ -14,7 +14,6 @@ const Dashboard = () => {
     const [isCreateAccountModalOpen, setIsCreateAccountModalOpen] = useState(false);
     const [isCreateTransferModalOpen, setIsCreateTransferModalOpen] = useState(false);
 
-    console.log('fetching', user.userId)
     const { data: accountsResp, isLoading } = useQuery({
         queryKey: ["accounts"],
         queryFn: () => fetchAccounts(user.userId)

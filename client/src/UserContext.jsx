@@ -12,7 +12,6 @@ export const UserProvider = ({ children }) => {
 
   // Set user data after authentication
   const login = (userData) => {
-    console.log('userData', userData)
     setUser(userData); 
   };
 

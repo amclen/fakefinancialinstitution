@@ -5,7 +5,6 @@ const RequireAuth = ({ children }) => {
     let auth = useUser();
     let location = useLocation();
   
-    console.log("auth.user", auth)
     if (!auth.user) {
       // Redirect them to the /login page, but save the current location they were
       // trying to go to when they were redirected. This allows us to send them
